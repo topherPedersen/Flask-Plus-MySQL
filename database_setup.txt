@@ -1,0 +1,6 @@
+Create a MySQL Database Schema Called: test_db
+
+Create a Table Called: test_table
+
+Create Two Columns: id_column BIGINT(20)
+                    value_column VARCHAR(512)
