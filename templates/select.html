@@ -1,0 +1,14 @@
+<table>
+  <!-- Table Head -->
+  <tr>
+    <th>id_column</th>
+    <th>value_column</th>
+  </tr>
+  <!-- Table Rows -->
+  {% for row in list_of_results %}
+    <tr>
+      <td>{{ row.id_column }}</td>
+      <td>{{ row.value_column }}</td>
+    </tr>
+  {% endfor %}
+</table>
